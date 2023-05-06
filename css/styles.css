@@ -303,7 +303,8 @@ img {
 .footer {
   color: var(--color-cloud);
   background-color: var(--color-footer);
-  padding: 100px 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-web-footer {
   font-family: "Raleway", sans-serif;
@@ -314,6 +315,7 @@ img {
 
   text-transform: uppercase;
   color: var(--color-button);
+  display: inline-block;
   display: flex;
   margin-bottom: 16px;
 }
@@ -379,6 +381,7 @@ img {
 .portfolio-btn:is(:hover, :focus) {
   color: var(--color-body);
   background-color: var(--color-hover);
+  border: 1px solid transparent;
 }
 
 .main-list-portfolio {
