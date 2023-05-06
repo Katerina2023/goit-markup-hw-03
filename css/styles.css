@@ -316,7 +316,6 @@ img {
   text-transform: uppercase;
   color: var(--color-button);
   display: inline-block;
-  display: flex;
   margin-bottom: 16px;
 }
 
@@ -392,7 +391,7 @@ img {
 }
 
 .main-portfolio {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-description {
