@@ -66,7 +66,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
 }
 .header-container {
   display: flex;
@@ -79,7 +78,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 .logo-web-header {
   font-family: "Raleway", sans-serif;
@@ -187,8 +186,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin-top: 48px;
-  margin: 0 auto;
+  margin: 48px auto 0 auto;
 }
 .hero-btn:is(:hover, :focus) {
   color: var(--color-body);
@@ -229,7 +227,7 @@ img {
 
 .about {
   padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 0;
 }
 .about-title {
   font-size: 36px;
@@ -312,7 +310,6 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
   text-transform: uppercase;
   color: var(--color-button);
   display: inline-block;
@@ -398,7 +395,12 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
